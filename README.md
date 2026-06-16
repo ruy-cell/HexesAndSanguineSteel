@@ -2,7 +2,20 @@
 
 Server-side custom weapon framework for V Rising.
 
-Create named weapons, bind them to item instances, replace weapon ability slots, add runtime stats, define weapon-type bonuses, and apply Bloodcraft-style school on-hit effects.
+Create named weapons, replace weapon and spells ability slots, customize their cooldowns, add stat bonuses, and apply school on-hit effects.
+
+This mod bases itself on admin commands, but the players can access to the weapon through the upgrade system. 
+
+If the weapon type bonuses are enabled, every weapon of that type will recieve the benefit of it. With this admins/server owners can change how some weapons behave regarding stats and balance them out in case a weapon is being overshadowed by the other-
+
+Aside from the weapons, this mod allows to replace weapons/spells to the Q|E|Dash|R|C|T keys and manually set their cooldowns as the user pleases. 
+
+# Credits
+
+This mod is heavealy inspired for its systems and ideas by the following amazing mods and people:
+
+- [Bloodcraft](https://thunderstore.io/c/v-rising/p/zfolmt/Bloodcraft/) by [zfolmt](https://thunderstore.io/c/v-rising/p/zfolmt/) — inspiration/reference for the boss style weapons
+- [CustomAbilities](https://thunderstore.io/c/v-rising/p/Fryke/CustomAbilities/) by [Fryke](https://github.com/Tmktahu) — inspiration/reference for custom spells and abilities workflow.
 
 ## Table of Contents
 
