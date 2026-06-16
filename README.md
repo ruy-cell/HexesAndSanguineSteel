@@ -353,29 +353,4 @@ See [`COMMANDS.md`](COMMANDS.md) for the full command reference.
 - School on-hit effects follow the same style of school debuffs used by Bloodcraft classes, but this mod keeps its own config and runtime logic.
 - Custom weapon abilities are intentionally disabled during shapeshift and boss-feed/V Blood extraction states to avoid temporary ability-bar conflicts.
 
-## Development
-
-Repository layout follows the flat Bloodcraft-style structure:
-
-```text
-Commands/     VampireCommandFramework commands
-Configs/      JSON config loading and migration
-Models/       Runtime definitions and registries
-Patches/      Harmony patches
-Services/     Runtime custom weapon systems
-Utilities/    ECS helpers and safety utilities
-Resources/    Example config files
-```
-
-Build:
-
-```bash
-dotnet restore HexesAndSanguineSteel.csproj
-dotnet build HexesAndSanguineSteel.csproj -c Release
-```
-
-The output DLL is written to:
-
-```text
-bin/Release/net6.0/
 ```
