@@ -1,6 +1,6 @@
 # Hexes and Sanguine Steel
 
-Server-side custom weapon framework for V Rising.
+Server-side custom weapon and abilities mod for V Rising.
 
 Create named weapons, replace weapon and spells ability slots, customize their cooldowns, add stat bonuses, and apply school on-hit effects.
 
