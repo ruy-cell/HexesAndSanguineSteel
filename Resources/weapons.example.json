@@ -1,0 +1,71 @@
+{
+  "ConfigVersion": 16,
+  "DebugLogging": false,
+  "AdminRefreshCooldownSeconds": 5,
+  "DefaultCustomWeaponCarrierBuff": -1721561549,
+  "DefaultCustomWeaponStatCarrierBuff": -1122472005,
+  "GlobalUpgradeCost": [],
+  "Weapons": [
+    {
+      "Enabled": true,
+      "Name": "Crimson Thorns",
+      "ItemWeapon": 1307774440,
+      "EquipBuff": 673013659,
+      "CarrierBuff": 0,
+      "StatCarrierBuff": 0,
+      "WeaponLevel": 100,
+      "PhysicalPower": 0,
+      "SpellPower": 0,
+      "Stats": [
+        {
+          "StatType": "PhysicalPower",
+          "ModificationType": "AddToBase",
+          "AttributeCapType": "SoftCapped",
+          "Value": 35
+        },
+        {
+          "StatType": "SpellPower",
+          "ModificationType": "AddToBase",
+          "AttributeCapType": "SoftCapped",
+          "Value": 10
+        },
+        {
+          "StatType": "PhysicalResistance",
+          "ModificationType": "AddToBase",
+          "AttributeCapType": "SoftCapped",
+          "Value": 6
+        }
+      ],
+      "Attack": -208121356,
+      "AttackCooldown": 0,
+      "Primary": 1826128809,
+      "PrimaryCooldown": 8,
+      "Secondary": 1730729556,
+      "SecondaryCooldown": 10,
+      "Dash": -1940289109,
+      "DashCooldown": 6,
+      "Ultimate": -1730693034,
+      "UltimateCooldown": 60,
+      "Spell Slot 1": 841757706,
+      "Spell Slot 1 Cooldown": 8,
+      "Spell Slot 2": 1295370119,
+      "Spell Slot 2 Cooldown": 8,
+      "OnHitEffects": []
+    }
+  ],
+  "WeaponTypeBuffs": [
+    {
+      "Enabled": false,
+      "WeaponType": "Mace",
+      "ApplyToCustomWeapons": true,
+      "Stats": [
+        {
+          "StatType": "AttackSpeed",
+          "ModificationType": "AddToBase",
+          "AttributeCapType": "SoftCapped",
+          "Value": 0.1
+        }
+      ]
+    }
+  ]
+}
