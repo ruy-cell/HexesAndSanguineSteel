@@ -12,7 +12,7 @@ Aside from the weapons, this mod allows to replace weapons/spells to the Q|E|Das
 
 # Credits
 
-This mod is heavealy inspired for its systems and ideas by the following amazing mods and people:
+This mod is mainly inspired for its systems and ideas by the following amazing mods and people:
 
 - [Bloodcraft](https://thunderstore.io/c/v-rising/p/zfolmt/Bloodcraft/) by [zfolmt](https://thunderstore.io/c/v-rising/p/zfolmt/) — inspiration/reference for the boss style weapons
 - [CustomAbilities](https://thunderstore.io/c/v-rising/p/Fryke/CustomAbilities/) by [Fryke](https://github.com/Tmktahu) — inspiration/reference for custom spells and abilities workflow.
@@ -53,7 +53,7 @@ This mod is heavealy inspired for its systems and ideas by the following amazing
 <details>
 <summary><strong>School On-Hit Effects</strong></summary>
 
-- Add Bloodcraft-style school effects through `OnHitEffects[]`.
+- Add school effects through `OnHitEffects[]`.
 - Supported proven school effects include Leech, Static, Chill, Ignite, Weaken, and Condemn.
 - Effects can be restricted to players, non-players, or both.
 
@@ -224,7 +224,7 @@ Useful commands:
 
 ### School on-hit effects
 
-Use `OnHitEffects[]` to apply Bloodcraft-style school debuffs on valid hits.
+Use `OnHitEffects[]` to apply school debuffs on valid hits.
 
 ```json
 "OnHitEffects": [
@@ -349,8 +349,7 @@ See [`COMMANDS.md`](COMMANDS.md) for the full command reference.
 
 - Server-side only.
 - Designed for dedicated server use.
-- Does not require Bloodcraft.
 - School on-hit effects follow the same style of school debuffs used by Bloodcraft classes, but this mod keeps its own config and runtime logic.
 - Custom weapon abilities are intentionally disabled during shapeshift and boss-feed/V Blood extraction states to avoid temporary ability-bar conflicts.
 
-```
+
